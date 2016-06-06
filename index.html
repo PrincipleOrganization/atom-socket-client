@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Socket.IO chat</title>
+  </head>
+  <body>
+    <p>Date: <span id='date'></span></p>
+    <p>Weight: <span id='weight'></span></p>
+
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+    <script>
+      var socket = io('http://192.168.1.100:4002//dev/ttyACM0');
+      socket.on('/dev/ttyACM0', function(msg) {
+        var json = JSON.parse(msg);
+        $('#date').text(json.date);
+        $('#weight').text(json.weight);
+      });
+    </script>
+  </body>
+</html>
