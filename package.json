@@ -1,0 +1,20 @@
+{
+  "name": "atom-socket-client",
+  "version": "0.0.1",
+  "description": "Socket.io client page for Atom (Princip software)",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrincipleOrganization/atom-socket-client.git"
+  },
+  "keywords": [
+    "socket",
+    "page"
+  ],
+  "author": "Yaroslav <shamatienko.yaroslav@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PrincipleOrganization/atom-socket-client/issues"
+  },
+  "homepage": "https://github.com/PrincipleOrganization/atom-socket-client#readme"
+}

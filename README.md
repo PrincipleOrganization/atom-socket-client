@@ -1,2 +1,3 @@
 # atom-socket-client
-Socket client for Atom
+
+Socket client template for Atom (Princip)
